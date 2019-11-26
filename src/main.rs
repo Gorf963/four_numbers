@@ -21,7 +21,7 @@ impl Storage {
         return _output;
     }
 }
-
+   
 fn main() {
     let mut m: Vec<Storage> = Vec::new();
 
@@ -48,7 +48,7 @@ fn main() {
     }
     println!("Calc duration {:?}", duration);
     println!("Output took {:?}", start.elapsed());
-    println!("Count {}",m.iter().filter(|n|n.size==2&&n.number<24.1&&n.number>23.9).count()  );
+    println!("Count {}",m.iter().filter(|n|n.size==4&&n.number<24.1&&n.number>23.9).count()  );
 }
 
 
